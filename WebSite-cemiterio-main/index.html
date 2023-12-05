@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="img/favIconSite.png">
+    <title>Cemiterio da saudade</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+    <!-- <header style="background-image: url('img/background-homeCemiterio.jpg');"> -->
+        <div class="container-inicio" >
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo cemiterio da saudade horizontal.png" alt="" class="img-header">
+                </a>
+                <ul class="ul">
+                    <a href="#id_historia">Sobre</a>
+                    <a href="#id_carrossel">Imagens</a>
+                    <a href="#id_pessoas">Icones</a>
+                    <a href="#id_servicos">Serviços</a>
+                    <a id="link_contato" href="#id_contatos">Contato</a>
+                    <a class="btn" href="#id_contatos">Contato</a>
+
+                    <!-- <div class="close-icon" onclick="closeMenu()" >
+                        <i class="bi bi-x-circle-fill"></i>
+                    </div>
+
+                </ul>
+
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="bi bi-list"></i>
+                </div> -->
+
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Cemitério da saudade</h1>
+                    <p>Cemitério da cidade de Machado Minas Gerais.</p>
+                </div>
+            </section>
+        </div>
+        <!-- end container -->
+    </header>
+    <!-- end header -->
+
+    <!-- historia -->
+    <section id="id_historia" class="historia">
+        <!-- container -->
+        <div class="container">
+            <div class="historia-text">
+                <h3>HISTÓRIA DO CEMITÉRIO</h3>
+                <p>Em 2 de novembro de 1.942 começou a construção de um novo cemitério na Cidade de Machado,A obra foi executada pelo Prefeito João Vieira da Silva.</p>
+                    <br>
+                    <p>Em especial nas décadas de ’50 e ’60, se fizeram muitas romarias ao túmulo de Maria Isaltina Ribeiro. Surda-muda e paralítica, faleceu em 1.952, com 43 anos de idade. É considerada “santa” pela população humilde, que lhe atribui a prática de milagres.</p>
+                    <br>
+                    <p>Em 1.973 a Necrópole passou por reforma, com construção de rampas gramadas e pequenos jardins. Foram frequentes, nos anos que se seguiram, as reclamações da imprensa acerca de sua má conservação, do crescimento de mato entre os jazigos, de mau cheiro, de falta de iluminação e da precariedade das condições de segurança para o trabalho de funcionários e legistas. No início de 1.981 sua frente recebeu iluminação. Em 1.983 o necrotério foi reformado e equipado.</p>
+                    <br>
+                    <p>Na data de 11/11/85, desvinculou o Cemitério da Chefia de Serviços Urbanos, subordinando-o diretamente ao Gabinete do Prefeito. Em 1.990 ele teve o interior iluminado. Em 1.993 passou por reforma e limpeza gerais; a capela e o necrotério foram reparados, e recebeu nova pintura. No ano seguinte algumas ruas internas foram calçadas. Em 1.998 foram nele abertas duas novas quadras. </p><br>
+                    <p>Desde então, o local continua passando por reformas frequentes, visando melhorias no cotidiano. Com a crescente falta de espaço nos cemitérios horizontais, tem havido discussões sobre a possibilidade de implementar a ideia de um cemitério vertical composto por gavetas, como uma solução para a limitação de espaço. No entanto, ainda não há confirmação de que essa ideia será implementada no cemitério, mas planejamentos estão sendo realizados para considerar essa alternativa no futuro.</p>
+                    
+            </div>
+            <div class="historia-img">
+                <img src="img/img-estatuaJesusCruz.jpg" alt="" class="estatua"  >
+                <img src="img/estatua homem lendo.jpg" alt="" class="estatua"  >
+                <img src="img/jesus andando.jpg" alt="" class="estatua" >
+                
+                <img src="img/estatua mao levantada.jpg" alt="" class="estatua" >
+                
+            </div>
+        </div>
+        
+        <!-- end container -->
+    </section>
+    <!-- end historia -->
+    <!-- carousel -->
+    <section id="id_carrossel">
+        
+        <h3 class="imagens-do-local">Imagens do local</h3>
+        <div id="banner" class="carousel slide" data-bs-ride="carousel" >
+            <div id="indicadores" class="carousel-indicators" >
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="2" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="3" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="4" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="5" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="6" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="7" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="8" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="9" ></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="10" ></button>
+                
+            </div>
+            
+            <div id="imagens" class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Fotos do cemitério/IMG_20230818_110118.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_110239mdk.jpg"  class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_104527 (1).jpg"  class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_105431.jpg" class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_104518 (1).jpg"  class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_104518.jpg"  class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_105604.jpg" class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_103812i.jpg"  class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/IMG_20230818_103829h.jpg"  class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/2928988_640x360.jpg"  class="d-block w-100"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Fotos do cemitério/5612753_640x360.jpg"  class="d-block w-100"/>
+                </div>
+                
+            </div>
+            
+            <button  type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev" >
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button  type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+                <span class="carousel-control-next-icon" ></span>
+            </button>
+        </div>
+    </section>
+<!-- end carousel -->
+<!-- Pessoas relevantes -->
+<section id="id_pessoas" >
+    <h3 class="pessoas-relevantes" >Pessoas Notáveis
+    </h3>
+    <p class="paragrafo-pessoas-relevantes">O Cemitério da Saudade de Machado é mais do que um local de descanso eterno; é um repositório de histórias que marcaram profundamente a cidade. Entre as lápides que testemunham essas narrativas, destacam-se figuras notáveis  não menos importantes que as demais, pórem deixaram um impacto duradouro em Machado e em nossas memórias.
+    </p>
+    <div class="cards">
+        <div class="card maria">
+            <div class="containerPessoa">
+                <div class="cardPessoa">
+                    <div class="imagemCard">
+                        <img src="img/Fotos do cemitério/2928988_640x360_cropped.jpg" alt="Maria" class="fotoPessoa">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Maria do Cemitério</h3>
+                        <p>Maria do Cemitério iniciou sua incomum jornada aos 8 anos, acompanhando seu pai nos serviços de coveiro. Ao longo de seis décadas, ela desempenhou papéis múltiplos no Cemitério da Saudade, não apenas como coveira, mas também como zeladora e administradora competente. Seu amor profundo pelo local e pelos que ali descansavam a transformou em uma memória da cidade. Maria do Cemitério se tornou uma figura reconhecida nacionalmente, concedendo entrevistas em programas de grande destaque, como Globo, Rede Record e até mesmo no Programa do Jô Soares no SBT. Sua batalha contra o Alzheimer chegou ao fim em 2017, quando, aos 77 anos de idade, ela se despediu, sendo sepultada em um túmulo ao lado de sua casa, onde viveu por incríveis 60 anos. Digna de receber um busto em sua homenagem.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="card jose">
+            <div class="containerPessoa">
+                <div class="cardPessoa">
+                    <div class="imagemCard">
+                        <img src="img/Fotos do cemitério/padreJose.jpg" alt="jose" class="fotoPessoa">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Padre José de Souza Ribeiro</h3>
+                        <p>Em 1999, a cidade de Machado testemunhou o assassinato brutal do Padre José de Souza Ribeiro, um sacerdote de 77 anos.Os resultados da perícia revelaram que a causa de sua morte foi um traumatismo cranio-encefálico, resultante de um golpe de martelo,a morte do padre continua envolta em mistério, sem que tenha sido encontrada uma explicação plausível. Até o momento, ninguém foi preso ou responsabilizado pelo crime. <br> O túmulo do padre se tornou um dos mais visitados do cemitério, lembrando-nos da tragédia não resolvida. Uma teoria intrigante sugere que os sequestradores podem ter cometido um erro trágico, confundindo o padre com outra figura notável na cidade. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card walter">
+            <div class="containerPessoa">
+                <div class="cardPessoa">
+                    <div class="imagemCard">
+                        <img src="img/Fotos do cemitério/conego2_cropped.jpg" alt="conego" class="fotoPessoa">
+                    </div>
+                    <div class="descricao">
+                        <h3 class="titulo">Cônego Walter Maria Pulcinelli</h3>
+                        <p> O Cônego Walter Maria Pulcinelli, nascido em 20 de janeiro de 1928, e falecido em 8 de fevereiro de 2017, foi uma figura de destaque na comunidade. Sua trajetória eclesiástica incluiu o cargo de vice-reitor do Seminário Diocesano São José, em Guaxupé, além de ter atuado como professor, diretor da Obra das Vocações Sacerdotais, secretário do bispado e pároco de Machado, onde viveu por 55 anos. Filho de imigrantes italianos, ele nasceu na cidade de Muzambinho. A importância do Cônego Walter na comunidade foi tal que, após sua morte, a Prefeitura de Machado decretou um luto oficial de três dias e instituiu um feriado municipal em sua homenagem. Ele repousa na capela do Cemitério da Saudade, ao lado do túmulo do Padre José de Souza Ribeiro, reforçando a conexão entre essas duas figuras notáveis na história local. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section  id="id_servicos">
+        <div class="servicos-titulo">
+            <h3>Serviços prestados</h3>
+        </div>
+        <div class="cartaoContainer">
+            <div class="cartao">
+                <div class="inner">
+                    <div class="frente">
+                        <img src="img/pack icones de servicos/Velorio.png" alt="Icone de velorio" class="imgIcone">
+                        <p>Velório</p>
+                    </div>
+                    <div class="tras">
+                        <p>Encontro dos parentes e amigos de um falecido nas horas que se seguem à sua morte e antes do sepultamento ou cremação do corpo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartao">
+                <div class="inner">
+                    <div class="frente">
+                        <img src="img/pack icones de servicos/Sepultamento.png" alt="Icone de Sepultamento" class="imgIcone">
+                        <p>Sepultamento</p>
+                    </div>
+                    <div class="tras">
+                        <p>Consiste no ato de colocar o corpo falecido em uma sepultura (túmulo)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartao">
+                <div class="inner">
+                    <div class="frente">
+                        <img src="img/pack icones de servicos/Exumacao.png" alt="Icone de Exumação" class="imgIcone">
+                        <p>Exumação</p>
+                    </div>
+                    <div class="tras">
+                        <p>Trata-se de condicionar restos mortais em uma caixa própria, após a decomposição natural, geralmente após três anos do sepultamento.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartao">
+                <div class="inner">
+                    <div class="frente">
+                        <img src="img/pack icones de servicos/manutencao.png" alt="Icone de Manutenção dos jazigos" class="imgIcone">
+                        <p>Manutenção</p>
+                    </div>
+                    <div class="tras">
+                        <p> Refere-se aos cuidados e serviços realizados em locais de sepultamento
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- inicio sessão de avisos -->
+    <section class="project-actions mt-5" id="actions-table">
+        <h2>Avisos:</h2>
+        <table class="table">
+            <thead class="custom-blue-header">
+                <tr>
+                    <th>Recados:</th>
+                    <th>Datas:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dados CSV serão inseridos aqui via JavaScript -->
+            </tbody>
+        </table>
+    </section>
+<!-- fim avisos -->
+
+    <section id="id_contatos">
+        <div class="contatos">
+            <h3 class="titulo-contatos">Contatos</h3>
+            <div class="container-info">
+                <div class="contatos-info">
+                    <div class="box">
+                        <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="text">
+                            <h2 class="titulo-contato">Endereço</h2>
+                            <p>Av. Dr. Ataíde Pereira de Souza 673</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="bi bi-telephone-fill"></i></div>
+                        <div class="text">
+                            <h2>Telefone</h2>
+                            <p>992649799 - Adriele <br> (35) 3295-2600</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="bi bi-alarm-fill"></i></div>
+                        <div class="text">
+                            <h2>Atendimento</h2>
+                            <p>7 Horas às 17 Horas</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="bi bi-facebook"></i></div>
+                        <div class="text">
+                            <h2>Rede social</h2>
+                            <p> Facebook 
+                                <a href="https://m.facebook.com/p/Cemit%C3%A9rio-da-saudade-de-machado-mg-100069025240347/" target=" target="_blank" rel="">Clique aqui</a>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.5379564001246!2d-45.936173052351016!3d-21.686620933482946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca1484d3a68a37%3A0x42868efd7b2741a4!2sCemit%C3%A9rio%20da%20Saudade!5e0!3m2!1spt-BR!2sbr!4v1699061107751!5m2!1spt-BR!2sbr" width="530" height="520" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <ul>
+                    <li><a href="#id_historia">Inicio</a></li>
+                    <li><a href="#id_carrossel">Imagens</a></li>
+                    <li><a href="#id_pessoas">Icones</a></li>
+                    <li><a href="#id_servicos">Serviços</a></li>
+                </ul>
+            </div>
+        
+            <div class="credits">
+                <p>All rights reserved Copyright © 2023 <a href="https://github.com/AthosTelini" target="_blank">Athos Telini</a> , <a href="https://github.com/RyanPereira18" target="_blank" >Ryan Mendes</a> || Designed By: Athos Telini.</p> 
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js" >  </script>
+</body>
+
+</html>
